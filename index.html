@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" class="css">
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+  <div class="container">
+    <div class="background">
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">Check the Weather</div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">Enter your Zip Code: <input type="number" id = "zipCodeInput" pattern = "{5,5}" ></div>
+        <div class="col-lg-1"><button id="zipCodeButton">Check</button></div>
+        <div class="col-lg-3"><img class="forecastImageIcon"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">Current Conditions</div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+      </div>
+    </div>
+    <div class="secondBackground">
+    <div class="row">
+      <div class="col-lg-3 currentConditions ">Forecast for:</div><div class = "forecastDay"></div>
+      <div class="col-lg-5 currentForecast" style="color: white;"></div>
+      <div class="col-lg-4"></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-3 currentConditions ">Forecast for:</div>
+      <div class = "forecastDayTwo"></div>
+      <div class="col-lg-5 currentForecastTwo" style="color: yellow;"></div>
+      <div class="col-lg-4"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 currentConditions ">Forecast for:</div>
+      <div class = "forecastDayThree"></div>
+      <div class="col-lg-5 currentForecastThree" style="color: orange;"></div>
+      <div class="col-lg-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 currentConditions ">Forecast for:</div>
+      <div class = "forecastDayFour"></div>
+      <div class="col-lg-5 currentForecastFour" style="color: red;"></div>
+      <div class="col-lg-4"></div>
+    </div>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

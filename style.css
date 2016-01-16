@@ -1,0 +1,25 @@
+.background {
+  background-image: url('https://wallpaperscraft.com/image/lightning_sky_trees_outlines_stars_bad_weather_night_orange_birds_64059_1920x1080.jpg');
+  width: 80vw;
+  color: white;
+}
+.secondBackground {
+  background-image: url('http://eskipaper.com/images/earth-background-2.jpg');
+  height: 40vw;
+  width: 80vw;
+  color: pink;
+}
+.container {
+  font-family: monospace;
+  height: 60vw;
+  width: 80vw;
+  font-size: 1.5vw;
+  padding: 1vw;
+}
+
+#zipCodeInput {
+  color: black;
+}
+#zipCodeButton {
+  background-color: green;
+}
